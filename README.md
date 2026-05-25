@@ -22,20 +22,6 @@ This repository is being used to practice the full workflow around a small front
 - Lightweight HTML validation script in `scripts/check-html.mjs`
 - GitHub Actions CI workflow in `.github/workflows/ci.yml`
 
-## Scripts
-
-- `pnpm check` - run the HTML validation script
-- `pnpm test` - alias for `pnpm check`
-
-## Deployment
-
-The deployment workflow expects these GitHub secrets:
-
-- `VERCEL_TOKEN`
-- `VERCEL_ORG_ID`
-- `VERCEL_PROJECT_ID`
-
-Once those are set, pushing to `main` will deploy the site to Vercel.
 
 ## Learning goals
 
@@ -44,7 +30,3 @@ Once those are set, pushing to `main` will deploy the site to Vercel.
 - Learn hover and focus states
 - Understand a simple CI/CD flow
 - Learn how static sites connect to Vercel
-
-## Notes
-
-The project is still in progress. The current base is intentionally small so each next change stays easy to understand.
