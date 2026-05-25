@@ -1,0 +1,14 @@
+{
+  "name": "social-links-profile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "check": "node scripts/check-html.js",
+    "test": "pnpm check"
+  },
+  "keywords": [],
+  "author": "Solji",
+  "license": "ISC",
+  "packageManager": "pnpm@10.33.2"
+}
